@@ -38,8 +38,11 @@ nav ul li a{
 text-decoration-thickness: 6pt;
 color: purple;
 font-size: 20px;
+} 
+
+img { 
+    padding-left: 500px;
 }
-img { padding-left: 400px;}
 
 
 
