@@ -2,31 +2,30 @@
 body {
     
     
-    background-color: rgb(220, 244, 245);
+    background-color: rgb(228, 235, 164);
     font-family: 'Dancing Script', cursive;
 
 }
 
-h1 { font-size: 60px;
+h1 { font-size: 60px;  
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    padding-left: 300px;
    
 }
 h2 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 text-shadow: maroon;
 color: maroon;
+text-align: center;
 
 }
 
 nav {
-
-    width:100%;
-    height: 0vh;
-    margin-left: 600px ;
-    margin-top: 0px; 
-
-    display:flex;
-    flex:1;
-    align-items: right;
-    padding-left: 60px;
+    
+    margin: 20px;
+    float: right;
+    position: relative;
+    bottom: 50px;
+    right: 50px;
 }
 nav ul li{
     display: inline-block;
@@ -38,30 +37,35 @@ nav ul li{
 nav ul li a{
 text-decoration-thickness: 6pt;
 color: purple;
+font-size: 20px;
 }
-
+img { padding-left: 631px;}
 
 
 
 .box-content {
-    background-color: #fdb9b9;
+    background-color: rgb(228, 235, 164);
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+    font-size: 25px;
     
 }
 
 .div-2 {
-    background-color: rgb(253, 192, 185);
+    background-color: rgb(228, 235, 164);
+    font-family: 'Roboto Mono', monospace;
+    text-align: center;
+
 }
 
 p { 
     color: purple; 
     font-size: 25px;
-    text-align:justify;
+    
 }
-#name { 
-    color: saddlebrown;
-    font-size: 25px;
-    text-align: justify;
-}
+
+    
+
 footer { margin-top: 140px;
     font-size: 40px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
