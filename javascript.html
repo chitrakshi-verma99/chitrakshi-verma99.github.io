@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Posts  </title>
+        <meta charset="UTF-8"> 
+        <link href="https://fonts.googleapis.com/css2?family=Viaoda+Libre&display=swap" rel="stylesheet">
+        <link href="styles/main.css" rel="stylesheet" type="text/css"> 
+        
+    </head>
+    <body>
+        <h1>Bobby's Blog During Dev Academy </h1> 
+        <link href="https://fonts.googleapis.com/css2?family=Yanone+Kaffeesatz:wght@300&display=swap" rel="stylesheet">
+
+    <div class="navbar">
+      <nav><ul>
+       <li><a href="./index.html" >Home</a></li>
+        <li><a href="About me">About me</a></li>
+       <li><a href="./posts.html">Posts</a></li>
+      <li><a href="Contact me" >Contact me</a></li>
+     </ul></nav>
+     <br>
+     <br>
+     <br>
+   </div> 
+
+   <h6>The Relationship Between HTML, CSS and Javascript</h6>
+   <link href="https://fonts.googleapis.com/css2?family=Uchen&display=swap" rel="stylesheet">
+
+<div class="explain">
+    <p> <link href="https://fonts.googleapis.com/css2?family=Festive&family=Roboto+Mono:wght@200&display=swap" rel="stylesheet">
+       <h7> HTML </h7> <br>
+        HTML is a markup language that we use to describe its content and layout a basic rough structure of a website.<br>
+        
+        Analogy: <br> HTML is the frame and content of a house. So things like chairs, tables, doors, stairs, the bare essentials of 
+        what constitutes a house, nothing more.
+        HTML developers’ job is to supply the bare minimum requirements of a website by describing the content of the website correctly so when the designers come in, they know what’s a button and what’s a paragraph.<br>
+
+
+      <br> <h7> CSS</h7> <br>
+
+        CSS is a styling language that we use to shape and style website content in terms of colors, typography, spacing, borders, and more.<br>
+        Analogy:<br> CSS is the paint and the rounded edges of a house that makes visually appealing and comfortable to live in. Technically, 
+
+        the definition of a chair is something that you sit on, but things like shape, size, and padding (design) is what makes chairs comfortable (or uncomfortable) to sit on.
+        CSS developers’ job is to make sure that a website has the right visual style that the owner wants in terms of color, typography, spacing, shape, and overall layout when viewed on different devices.
+       
+        <br><h7> JavaScript</h7> <br>
+       
+        JavaScript is a dynamic programming language that allows you to make websites interactive, and reactive.<br>
+
+        Analogy:<br> JavaScript is the electricity and water supply that makes a modern home a modern home, and makes taking baths, cooking food, and not freezing 
+        to death during the winter possible. A JavaScript developer make sure that light switches on when you flip the switch, and hot/cold water comes out when you turn the water tap.
+    </p> </div>
+       <h6>  Control flow and loops</h6>
+    <div class="explain"> 
+        Control flow is in computer science the order that the instructions or statements or functions are executed. 
+        In javascript, we read the code starting from the first line till the last line unless of course 
+        in the code there is some instructions or statements that changes that control flow.
+        Within an imperative programming language, a control flow statement is a statement that
+         results in a choice being made as to which of two or more paths to follow. <br>
+
+         Loops are iteration statements that will keep running until there is either
+          nothing left to loop over, or if the condition becomes false. 
+          There are many types of loops in JavaScript, but for now I’m going to be going over two of them.
+           Let’s start with the most common used one, the for loop. 
+           The for is a conditional loop, which means that it runs based on if a certain condition is true. 
+           As long as it stays true, the code is going to keep executing.<br> 
+           <br> 
+         const edm = ['House', 'Dubstep', 'Drum and Bass'] <br>
+         for (let i = 0; i < edm.length; i++) {<br>
+         console.log(edm[i]) }<br>
+                        // 'House'<br>
+                        // 'Dubstep'<br>
+                       // 'Drum and Bass'<br>
+       Let’s break down what’s going on here. The syntax for a for loop contains a variable declaration
+        of i which is the index of the array edm that we are currently iterating over. 
+        After that we have the condition that checks if i is less than the length of our array,
+         followed by an increase in i. <br>
+         Basically, the for loop is saying to itself “okay so the index is 0, as long as that’s less
+          than the length of the array, we are going to execute the code inside the code block and
+           increase the value of i by one”. These three statements within the loop are optional though,
+           as you can simply write for(;;){...} which would be an infinite loop.<br>
+
+        <br> The while loop is similar to the for loop because it also runs while a condition is true. 
+        The difference between them is that you would use a for loop when you already know how many 
+        times you want the loop to be executed. A while loop is used when you are unsure about how many
+         times the loop wants to run.<br>
+
+        const edm = ['House', 'Dubstep', 'Drum and Bass']<br>
+        while (edm.length > 0) {<br>
+         const genre = edm.pop()<br>
+         console.log(genre)} <br>
+
+        // 'Drum and Bass'<br>
+        // 'Dubstep'<br>
+        // 'House'<br>
+        This loop is saying “run the code in this code block only if the length of the edm array 
+        is less than 0. An infinite loop in this situation would be if the condition in the while loop 
+        is always true. Ex while (true) {...} .<br> </div>
+
+        <h6> What is the DOM?</h6>
+      <div class="explain">
+      The Document Object Model (DOM) is a programming interface for HTML. 
+      It translates the content of an HTML document into a standardized object that functional 
+      programming languages like JavaScript can easily access and modify. Since most web page events 
+      are driven by non-HTML code, all dynamic web pages rely on the DOM to display and function
+       properly.<br>
+       Elements in an HTML document are structured this way for the same reason as objects:
+        A hierarchical structure helps computer programs to read and process the information. 
+        In the case of HTML, your web browser is the program, and scripting languages like JavaScript
+         are what change and modify the HTML code.<br>
+      But, there’s a problem. HTML documents by themselves are not objects. They cannot be read by 
+      JavaScript without some sort of file-to-object translation. This is where the DOM comes in.
+    The DOM represents an entire HTML document as a single object. To create the DOM, the web browser
+     reading the HTML file takes in all its parts, from the root htmlelement to the smallest span tags,
+          and outputs them as an object that JavaScript understands.<br>
+       The word “represent” is important here. The DOM is not a copy of the HTML file — it’s simply 
+       a different way that the web browser organizes the HTML information.<br></div>
+
+       <h6> Difference between accessing data from arrays and objects</h6>
+
+        <div class = "explain" >
+        Arrays are a native part of the Java language. Objects are types that are defined by the
+        programmer and which inherit from Java.lang.object (or another one of its children.)
+         Objects are defined by a Class definition, and like all instances of classes,
+          can contain both state (data) and behavior (code, in the form of methods acting on the 
+          state and/or other data provided as parameters.). Arrays, in contrast, are defined in code
+           using the special array syntax and keywords in the language, without having to define a class that creates the array’s capabilities.<br>
+           <br>
+           <br>
+           <u>Accessing Elements</u>   <br> 
+
+         If you just need to get the value of an element in an array (without updating it), 
+         it’s simple if you know the index, and not much harder if you don’t (but you know something about the element you’re looking for): <br>
+
+        const fruits = ['apple', 'banana', 'clementine'];<br>
+        const secondFruit = fruits[1]; <br>
+              // 'banana'<br>
+         const clementine = fruits.find(fruit => fruit === 'clementine'); <br>
+             // 'clementine' <br>
+         Accessing object properties is easy too: <br>
+         const box = { width: 4, height: 3, color: 'blue' }; <br>
+        const boxColor = box.color <br>
+        // 'blue' <br>
+        </div >
+     
+     <h6>What functions are and why they are useful </h6> 
+       <div class= "explain">
+     Functions are one of the fundamental building blocks in JavaScript. 
+     A function in JavaScript is similar to a procedure—a set of statements that
+      performs a task or calculates a value, but for a procedure to qualify as a function,
+       it should take some input and return an output where there is some obvious relationship 
+       between the input and the output. To use a function, you must define it somewhere in the 
+       scope from which you wish to call it. <br>
+       A function definition (also called a function declaration, or function statement) consists of
+        the function keyword, followed by:
+       The name of the function.
+       A list of parameters to the function, enclosed in parentheses and separated by commas.
+       The JavaScript statements that define the function, enclosed in curly brackets, {...}.
+    </div>
+
+
+
+
+
+
+
+
+
+
+    <footer> Thanks For visiting </footer>
+
+
+ </body>
+   </html>

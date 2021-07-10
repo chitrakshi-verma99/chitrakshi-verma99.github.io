@@ -76,6 +76,7 @@ img {
         .plan { font-family: 'Roboto Mono', monospace;
             text-align:justify;
             padding-bottom: 10px;
+            padding-right: 500px;
             display: ruby-text-container ;
             color: black;
             font-size: 20px;}   
@@ -93,6 +94,22 @@ img {
                 text-align: left;
             }
 
+            h6 {font-family: 'Uchen', serif;
+                color: rgb(21, 21, 104);
+                text-align: center;
+                text-shadow: rgb(147, 147, 235);
+                font-size: 40px;}
+
+             .explain { font-family: 'Roboto Mono', monospace;
+                font-size: 25px;
+                 text-align: left;
+            }  
+
+             h7 { color: rgb(6, 6, 70);
+                font-size: 30px;
+                font-family: Arial, Helvetica, sans-serif;
+
+             }   
 
 footer { margin-top: 140px;
     font-size: 40px;
