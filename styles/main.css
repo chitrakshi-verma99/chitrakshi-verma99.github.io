@@ -7,21 +7,15 @@ body {
 
 }
 
-h1 { font-size: 60px;  
+h1 { font-size: 80px;  
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    padding-left: 300px;
-   
-}
-h2 { font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
-text-shadow: maroon;
-color: maroon;
-text-align: center;
-
-}
+    
+    background-color:rgb(241, 197, 241);
+    margin-right: 450px;}
 
 nav {
     
-    margin: 20px;
+    
     float: right;
     position: relative;
     bottom: 50px;
@@ -36,84 +30,109 @@ nav ul li{
 }
 nav ul li a{
 text-decoration-thickness: 6pt;
-color: purple;
+color:ghostwhite;
 font-size: 20px;
 } 
 
-img { 
-    padding-left: 400px;
-}
 
 
 
 .box-content {
-    background-color: rgb(228, 235, 164);
+    background-color:black;
     font-family: 'Roboto Mono', monospace;
     text-align: center;
     font-size: 25px;
-    color: purple; }
+    color: rgb(233, 224, 233);
+    margin-right: 500px;
+    
+
+}
 
     h3 { 
         font-style: normal;
         font-family: Georgia, 'Times New Roman', Times, serif;
          color: maroon;
-         font-size: 30px;
+         font-size: 50px;
+         background-color:rgb(241, 197, 241);
+         margin-right: 750px;
+        
     }
        
     a { 
         font-size: 25px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: left;
+        background-color: black;
+        
     }
     
         h4 {font-family: 'Festive', cursive;
             font-size: 60px;
             color: rgb(122, 50, 50);
-            text-align: center;
+            text-align: left;
+            background-color: rgb(241, 197, 241);
+            margin-right: 1000px;
              
              }
 
         .plan { font-family: 'Roboto Mono', monospace;
-            text-align:justify;
-            padding-bottom: 10px;
-            padding-right: 500px;
+            text-align:left;
             display: ruby-text-container ;
-            color: black;
+            color:white;
+            box-sizing:initial;
+            margin-bottom: 200px;
+            background-color: black;
             font-size: 20px;}   
 
             h5 { 
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 color: rgb(7, 12, 41);
                 background-color: rgb(235, 148, 148);
-                font-size: 35px;
+                font-size: 50px;
+                margin-right: 300;
             }
             .answer { 
                 font-family: 'Roboto Mono', monospace;
-                color: black;
+                color: white;
                 font-size: 25px;
                 text-align: left;
+                background-color: black;
             }
 
             h6 {font-family: 'Uchen', serif;
-                color: rgb(21, 21, 104);
+                color: rgb(182, 12, 117);
                 text-align: center;
-                text-shadow: rgb(147, 147, 235);
+                background-color: rgb(241, 197, 241);
                 font-size: 40px;}
 
              .explain { font-family: 'Roboto Mono', monospace;
                 font-size: 25px;
                  text-align: left;
-            }  
+                 background-color:black;
+                 color: white;
+                 
+            }  p2 {
+                padding-left: 500px;
+            }
 
              h7 { color: rgb(6, 6, 70);
                 font-size: 30px;
-                font-family: Arial, Helvetica, sans-serif;
+                font-family: Arial, Helvetica, sans-serif;}
+                
+             h8 { font-family: Verdana, Geneva, Tahoma, sans-serif;
+                color: rgb(182, 12, 49);
+                text-align: center;
+                 font-size: 40px;
+                 background-color:rgb(241, 197, 241) ;
+                }
 
-             }   
+
+             
+
 
 footer { margin-top: 140px;
-    font-size: 40px;
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-    color: rgb(7, 15, 37);
+    font-size: 60px;
+    font-family: 'Playfair Display', serif;
+    color: black;
     text-align: center;
 }
