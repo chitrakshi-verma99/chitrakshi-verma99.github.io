@@ -9,7 +9,7 @@ body {
 
 h1 { font-size: 80px;  
     font-family: 'Yanone Kaffeesatz', sans-serif;
-    
+    opacity: 0.6;
     background-color:rgb(241, 197, 241);
     margin-right: 450px;}
 
@@ -30,7 +30,7 @@ nav ul li{
 }
 nav ul li a{
 text-decoration-thickness: 6pt;
-color:ghostwhite;
+color:rgba(234, 240, 246, 0.8);
 font-size: 20px;
 } 
 
@@ -40,11 +40,14 @@ font-size: 20px;
 .box-content {
     background-color:black;
     font-family: 'Roboto Mono', monospace;
-    text-align: center;
+    text-align: left;
     font-size: 25px;
-    color: rgb(233, 224, 233);
+    color: white;
     margin-right: 500px;
-    
+    border-radius: 70px;
+   opacity: 0.8;
+   padding-left: 100px;
+   padding-right: 100px;
 
 }
 
@@ -55,7 +58,7 @@ font-size: 20px;
          font-size: 50px;
          background-color:rgb(241, 197, 241);
          margin-right: 750px;
-        
+         opacity: 0.8;
     }
        
     a { 
@@ -63,6 +66,7 @@ font-size: 20px;
         font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
         text-align: left;
         background-color: black;
+        opacity: 0.8;
         
     }
     
@@ -72,7 +76,7 @@ font-size: 20px;
             text-align: left;
             background-color: rgb(241, 197, 241);
             margin-right: 1000px;
-             
+            opacity: 0.8;
              }
 
         .plan { font-family: 'Roboto Mono', monospace;
@@ -82,14 +86,15 @@ font-size: 20px;
             box-sizing:initial;
             margin-bottom: 200px;
             background-color: black;
-            font-size: 20px;}   
-
+            font-size: 20px;   
+            opacity: 0.6;}
             h5 { 
                 font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
                 color: rgb(7, 12, 41);
                 background-color: rgb(235, 148, 148);
                 font-size: 50px;
                 margin-right: 300;
+                opacity: 0.6;
             }
             .answer { 
                 font-family: 'Roboto Mono', monospace;
@@ -97,11 +102,13 @@ font-size: 20px;
                 font-size: 25px;
                 text-align: left;
                 background-color: black;
+                opacity: 0.6;
             }
 
             h6 {font-family: 'Uchen', serif;
-                color: rgb(182, 12, 117);
+                color: rgb(182, 12, 117,0.8);
                 text-align: center;
+                
                 background-color: rgb(241, 197, 241);
                 font-size: 40px;}
 
@@ -109,33 +116,38 @@ font-size: 20px;
                 font-size: 25px;
                  text-align: left;
                  background-color:black;
-                 color: white;
+                 color: rgb(240, 236, 236,1.0);
+                 opacity: 0.6;
                  
             }  p2 {
                 padding-left: 500px;
             }
 
-             h7 { color: rgb(173, 173, 194);
+             h7 { color: rgb(237, 237, 252);
                 font-size: 30px;
+                opacity: 1.0;
                 font-family: Arial, Helvetica, sans-serif;}
                 
              h8 { font-family: Verdana, Geneva, Tahoma, sans-serif;
                 color: rgb(182, 12, 49);
                 text-align:center;
+                opacity: 0.8;
                  font-size: 40px;
                  background-color:rgb(241, 197, 241) ;
                  
                 }
              h9 { font-family: Verdana, Geneva, Tahoma, sans-serif;
-                color: rgb(182, 12, 49);
+                color: rgb(182, 12, 49,1.0);
                 text-align:center;
                  font-size: 40px;
-                 background-color:rgb(241, 197, 241) ;
+                 opacity: 0.8;
+                 background-color:rgb(221, 179, 221) ;
                 
 
              } 
              p3 {
-                 padding-left: 400px;
+                 padding-left: 450px;
+                 opacity: 1.0;
              }
 
 
